@@ -1,0 +1,389 @@
+* {
+  font-family: 'Tw Cen MT';
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #E8EAF6; }
+
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: url("../lettertypes/TwCenMT-Regular.eot");
+  src: url("../lettertypes/TwCenMT-Regular.eot?#iefix") format("embedded-opentype"), url("../lettertypes/TwCenMT-Regular.woff") format("woff"), url("../lettertypes/TwCenMT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.logo {
+  padding: 5px;
+  display: block;
+  margin: 0 0 0 10px;
+  width: 100px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+footer a:link {
+  text-align: center;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 31.33%;
+  padding: 1%;
+  background-color: #1A237E;
+  text-decoration: none;
+  color: white; }
+
+footer a:visited {
+  text-align: center;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 31.33%;
+  padding: 1%;
+  background-color: #1A237E;
+  text-decoration: none;
+  color: white; }
+
+footer a:hover {
+  background-color: #9FA8DA;
+  color: black; }
+
+.achtergrondfoto {
+  width: 270px;
+  display: block;
+  margin: 0 auto; }
+
+#map {
+  width: 80%;
+  height: 250px;
+  display: block;
+  margin: 0 auto; }
+
+header {
+  background-color: #1A237E;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px; }
+
+input[type="text"], input[type="password"] {
+  width: 140px; }
+
+input[type="submit"] {
+  background-color: #1A237E;
+  color: white; }
+
+hr {
+  margin: 15px 0px; }
+
+.inlogger {
+  width: 30px;
+  padding: 10px;
+  float: right;
+  cursor: pointer; }
+
+.gebruikerslogo {
+  width: 20px; }
+
+.container {
+  display: block;
+  width: 280px;
+  margin: 100px auto;
+  color: black;
+  padding-bottom: 75px; }
+
+.about {
+  margin-top: 150px;
+  color: black; }
+
+.totaal {
+  display: block;
+  width: 280px;
+  margin: 100px auto;
+  color: black;
+  padding-bottom: 75px; }
+
+.stedeninfo {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.stedenwrapper {
+  margin-top: 100px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.stedenlink {
+  text-decoration: none;
+  display: block;
+  width: 200px; }
+
+.stedenNav {
+  background-color: #1A237E;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 40px;
+  display: block; }
+
+.stedenNav h3 {
+  padding-top: 9px;
+  color: white; }
+
+.visWrapper {
+  height: 280px;
+  width: 280px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.visWrapper a {
+  text-decoration: none; }
+
+.visDetailWrapper {
+  min-height: 280px;
+  min-width: 100px;
+  max-width: 300px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.locatieDetailWrapper {
+  min-height: 280px;
+  min-width: 100px;
+  max-width: 300px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.visIcoon {
+  width: 80px; }
+
+td h2 {
+  margin-left: 20px;
+  color: #1A237E; }
+
+@font-face {
+  font-family: 'weather';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#weather {
+  color: #1A237E;
+  width: 90%;
+  max-width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase; }
+
+i {
+  font-family: weather;
+  font-size: 120px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none; }
+
+.icon-0:before {
+  content: ":"; }
+
+.icon-1:before {
+  content: "p"; }
+
+.icon-2:before {
+  content: "S"; }
+
+.icon-3:before {
+  content: "Q"; }
+
+.icon-4:before {
+  content: "S"; }
+
+.icon-5:before {
+  content: "W"; }
+
+.icon-6:before {
+  content: "W"; }
+
+.icon-7:before {
+  content: "W"; }
+
+.icon-8:before {
+  content: "W"; }
+
+.icon-9:before {
+  content: "I"; }
+
+.icon-10:before {
+  content: "W"; }
+
+.icon-11:before {
+  content: "I"; }
+
+.icon-12:before {
+  content: "I"; }
+
+.icon-13:before {
+  content: "I"; }
+
+.icon-14:before {
+  content: "I"; }
+
+.icon-15:before {
+  content: "W"; }
+
+.icon-16:before {
+  content: "I"; }
+
+.icon-17:before {
+  content: "W"; }
+
+.icon-18:before {
+  content: "U"; }
+
+.icon-19:before {
+  content: "Z"; }
+
+.icon-20:before {
+  content: "Z"; }
+
+.icon-21:before {
+  content: "Z"; }
+
+.icon-22:before {
+  content: "Z"; }
+
+.icon-23:before {
+  content: "Z"; }
+
+.icon-24:before {
+  content: "E"; }
+
+.icon-25:before {
+  content: "E"; }
+
+.icon-26:before {
+  content: "3"; }
+
+.icon-27:before {
+  content: "a"; }
+
+.icon-28:before {
+  content: "A"; }
+
+.icon-29:before {
+  content: "a"; }
+
+.icon-30:before {
+  content: "A"; }
+
+.icon-31:before {
+  content: "6"; }
+
+.icon-32:before {
+  content: "1"; }
+
+.icon-33:before {
+  content: "6"; }
+
+.icon-34:before {
+  content: "1"; }
+
+.icon-35:before {
+  content: "W"; }
+
+.icon-36:before {
+  content: "1"; }
+
+.icon-37:before {
+  content: "S"; }
+
+.icon-38:before {
+  content: "S"; }
+
+.icon-39:before {
+  content: "S"; }
+
+.icon-40:before {
+  content: "M"; }
+
+.icon-41:before {
+  content: "W"; }
+
+.icon-42:before {
+  content: "I"; }
+
+.icon-43:before {
+  content: "W"; }
+
+.icon-44:before {
+  content: "a"; }
+
+.icon-45:before {
+  content: "S"; }
+
+.icon-46:before {
+  content: "U"; }
+
+.icon-47:before {
+  content: "S"; }
+
+#weather h2 {
+  margin: 0;
+  font-size: 6rem;
+  font-weight: 300;
+  text-align: center; }
+
+#weather ul {
+  margin: 0;
+  padding: 0; }
+
+#weather li {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px auto;
+  clear: right;
+  min-width: 50%; }
+
+#weather li i {
+  padding-right: 5px; }
+
+@media screen and (min-width: 800px) {
+  #map {
+    width: 600px;
+    height: 400px; }
+
+  * {
+    font-size: 22px; }
+
+  .visDetailWrapper {
+    margin-top: 150px;
+    min-width: 300px;
+    max-width: 800px; }
+
+  .locatieDetailWrapper {
+    margin-top: 150px;
+    min-width: 300px;
+    max-width: 800px; }
+
+  .visWrapper {
+    margin-top: 150px; }
+
+  .totaal {
+    margin-top: 150px;
+    width: 500px; }
+
+  .stedenwrapper {
+    margin-top: 200px; }
+
+  .achtergrondfoto {
+    width: 500px; } }

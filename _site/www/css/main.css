@@ -1,0 +1,52 @@
+* {
+  font-family: 'Tw Cen MT';
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #3F51B5; }
+
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: url("../lettertypes/TwCenMT-Regular.eot");
+  src: url("../lettertypes/TwCenMT-Regular.eot?#iefix") format("embedded-opentype"), url("../lettertypes/TwCenMT-Regular.woff") format("woff"), url("../lettertypes/TwCenMT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+header {
+  background-color: #1A237E;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px; }
+
+.logo {
+  padding: 75px 0px;
+  display: block;
+  margin: 0 auto;
+  width: 85%; }
+
+.inlogger {
+  width: 30px;
+  padding: 10px;
+  float: right;
+  cursor: pointer; }
+
+a.link {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #E8EAF6;
+  text-align: center;
+  text-decoration: none;
+  color: black; }
+
+a.link:hover {
+  background-color: #1A237E;
+  color: white; }
+
+@media screen and (min-width: 400px) {
+  a.link {
+    width: 200px; } }
